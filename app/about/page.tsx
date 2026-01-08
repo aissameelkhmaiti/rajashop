@@ -61,7 +61,7 @@ const AboutPage = () => {
             <h3 className="text-3xl font-bold text-white">L'Ambiance Légendaire du Raja</h3>
           </div>
           <p className="text-green-100 mb-6 text-lg">
-            Découvrez la passion incomparable de nos supporters, les Green Boys, qui font vibrer 
+            Découvrez la passion incomparable de nos supporters, la curva sud, qui font vibrer 
             chaque match et transforment notre stade en forteresse.
           </p>
           <div className="relative rounded-xl overflow-hidden shadow-2xl aspect-video bg-black/30">
