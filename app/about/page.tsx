@@ -10,9 +10,15 @@ const AboutPage = () => {
           <div className="flex items-center justify-between">
             <h1 className="text-4xl font-bold text-white">Raja Club Athletic</h1>
             <div className="flex gap-2">
-              <Star className="text-yellow-400 fill-yellow-400" size={24} />
-              <Star className="text-yellow-400 fill-yellow-400" size={24} />
-              <Star className="text-yellow-400 fill-yellow-400" size={24} />
+              <Star className=" " style={{ 
+      color: '#D4AF37', 
+    }} size={24} />
+              <Star className="   " style={{ 
+      color: '#D4AF37', 
+    }} size={24} />
+              <Star className="    " style={{ 
+      color: '#D4AF37', 
+    }} size={24} />
             </div>
           </div>
           <p className="text-green-300 mt-2 text-lg">Club Légendaire • Depuis 1949</p>
@@ -36,17 +42,23 @@ const AboutPage = () => {
       <div className="max-w-6xl mx-auto px-4 mb-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-white/10 backdrop-blur-md rounded-xl p-8 text-center border border-green-400/30 hover:border-green-400 transition-all">
-            <Trophy className="w-16 h-16 text-yellow-400 mx-auto mb-4" />
+            <Trophy className="w-16 h-16   mx-auto mb-4" style={{ 
+      color: '#D4AF37', 
+    }} />
             <h3 className="text-4xl font-bold text-white mb-2">32</h3>
             <p className="text-green-200 text-lg">Titres Nationaux</p>
           </div>
           <div className="bg-white/10 backdrop-blur-md rounded-xl p-8 text-center border border-green-400/30 hover:border-green-400 transition-all">
-            <Calendar className="w-16 h-16 text-yellow-400 mx-auto mb-4" />
+            <Calendar className="w-16 h-16   mx-auto mb-4" style={{ 
+      color: '#D4AF37', 
+    }} />
             <h3 className="text-4xl font-bold text-white mb-2">75+</h3>
             <p className="text-green-200 text-lg">Ans d'Histoire</p>
           </div>
           <div className="bg-white/10 backdrop-blur-md rounded-xl p-8 text-center border border-green-400/30 hover:border-green-400 transition-all">
-            <Users className="w-16 h-16 text-yellow-400 mx-auto mb-4" />
+            <Users className="w-16 h-16   mx-auto mb-4" style={{ 
+      color: '#D4AF37', 
+    }} />
             <h3 className="text-4xl font-bold text-white mb-2">50K+</h3>
             <p className="text-green-200 text-lg">Supporters Fidèles</p>
           </div>
@@ -81,12 +93,16 @@ const AboutPage = () => {
       <div className="max-w-6xl mx-auto px-4 mb-16">
         <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-green-400/30">
           <h3 className="text-3xl font-bold text-white mb-6 flex items-center gap-3">
-            <Calendar className="text-yellow-400" size={32} />
+            <Calendar style={{ 
+      color: '#D4AF37', 
+    }} size={32} />
             Notre Histoire
           </h3>
           <div className="space-y-4 text-green-100 text-lg leading-relaxed">
             <p>
-              Fondé en <span className="text-yellow-400 font-bold">1949</span>, le Raja Club Athletic 
+              Fondé en <span className="  font-bold" style={{ 
+      color: '#D4AF37', 
+    }}>1949</span>, le Raja Club Athletic 
               de Casablanca est l'un des clubs les plus titrés et respectés du continent africain.
             </p>
             <p>
@@ -106,33 +122,43 @@ const AboutPage = () => {
       <div className="max-w-6xl mx-auto px-4 pb-16">
         <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-green-400/30">
           <h3 className="text-3xl font-bold text-white mb-8 flex items-center gap-3">
-            <Star className="text-yellow-400 fill-yellow-400" size={32} />
+            <Star className=" " style={{ 
+      color: '#D4AF37', 
+    }} size={32} />
             Nos Valeurs
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-green-800/30 rounded-lg p-6 border border-green-500/30">
-              <h4 className="text-xl font-bold text-yellow-400 mb-3">Excellence</h4>
+              <h4 className="text-xl font-bold   mb-3" style={{ 
+      color: '#D4AF37', 
+    }}>Excellence</h4>
               <p className="text-green-100">
                 Nous visons l'excellence dans chaque match, chaque entraînement, chaque action pour 
                 honorer nos couleurs et nos supporters.
               </p>
             </div>
             <div className="bg-green-800/30 rounded-lg p-6 border border-green-500/30">
-              <h4 className="text-xl font-bold text-yellow-400 mb-3">Passion</h4>
+              <h4 className="text-xl font-bold   mb-3" style={{ 
+      color: '#D4AF37', 
+    }}>Passion</h4>
               <p className="text-green-100">
                 La passion est notre moteur. Elle unit nos joueurs, notre staff et nos millions de 
                 supporters dans un même élan de fierté.
               </p>
             </div>
             <div className="bg-green-800/30 rounded-lg p-6 border border-green-500/30">
-              <h4 className="text-xl font-bold text-yellow-400 mb-3">Tradition</h4>
+              <h4 className="text-xl font-bold   mb-3" style={{ 
+      color: '#D4AF37', 
+    }}>Tradition</h4>
               <p className="text-green-100">
                 Nous honorons notre riche histoire tout en construisant l'avenir du football marocain 
                 et africain.
               </p>
             </div>
             <div className="bg-green-800/30 rounded-lg p-6 border border-green-500/30">
-              <h4 className="text-xl font-bold text-yellow-400 mb-3">Solidarité</h4>
+              <h4 className="text-xl font-bold   mb-3" style={{ 
+      color: '#D4AF37', 
+    }}>Solidarité</h4>
               <p className="text-green-100">
                 Le Raja, c'est une grande famille unie par des valeurs de respect, de fraternité et 
                 d'entraide.

@@ -17,7 +17,9 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
               {/* Section 1 */}
               <div>
-                <h3 className="text-xl font-bold mb-4 text-green-400">Raja Club Athletic</h3>
+                <h3 className="text-xl   mb-4  " style={{ 
+      color: '#D4AF37', 
+    }}>Raja Club Athletic</h3>
                 <p className="text-gray-300">
                   Club légendaire depuis 1949. Fier, Ambitieux, Légendaire.
                 </p>
@@ -25,7 +27,9 @@ const Footer = () => {
 
               {/* Section 2 */}
               <div>
-                <h3 className="text-xl font-bold mb-4 text-green-400">Liens Rapides</h3>
+                <h3 className="text-xl   mb-4  " style={{ 
+      color: '#D4AF37', 
+    }}>Liens Rapides</h3>
                 <ul className="space-y-2">
                   {navLinks.map((link) => (
                     <li key={link.href}>
@@ -42,7 +46,9 @@ const Footer = () => {
 
               {/* Section 3 */}
               <div>
-                <h3 className="text-xl font-bold mb-4 text-green-400">Suivez-nous</h3>
+                <h3 className="text-xl   mb-4  " style={{ 
+      color: '#D4AF37', 
+    }}>Suivez-nous</h3>
                 <div className="flex space-x-4">
                   <a
                     href="#"

@@ -103,25 +103,33 @@ export default function Home() {
             </div>
 
             {/* Image Hero */}
-            <div className="relative">
-              <div className="relative rounded-2xl overflow-hidden transform rotate-2 hover:rotate-0 transition-transform duration-500">
-                <Image
-                  src="/image-removebg-preview.png"
-                  alt="Raja Club Athletic - Équipe Légendaire"
-                  width={300}
-                  height={300}
-                  className="w-full h-auto object-cover"
-                  priority
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-green-900/20 to-transparent"></div>
-              </div>
+<div className="relative mb-20">
+  {/* Conteneur de la vidéo avec l'effet de rotation au survol */}
+  <div className="relative rounded-2xl overflow-hidden transform rotate-2 hover:rotate-0 transition-transform duration-500 shadow-2xl aspect-video">
+    <iframe
+      className="w-full h-full"
+      src="https://www.youtube.com/embed/QHsF9_PqXS4?autoplay=1&mute=1&loop=1&playlist=QHsF9_PqXS4"
+      title="Raja Club Athletic Video"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+    
+    {/* Overlay léger pour harmoniser avec le design */}
+    <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-green-900/10 to-transparent"></div>
+  </div>
 
-              {/* Badge flottant */}
-              <div className="absolute -bottom-6 -left-6 bg-white text-green-700 px-6 py-3 rounded-2xl shadow-2xl">
-                <div className="text-sm font-semibold">Club Officiel</div>
-                <div className="text-xs text-gray-600">Depuis 1949</div>
-              </div>
-            </div>
+
+   {/* Badge flottant (Conservé tel quel) */}
+  <div className="absolute -bottom-6 -left-6 bg-white text-green-700 px-6 py-3 rounded-2xl shadow-2xl z-10">
+    <div className="text-sm font-semibold">Club Officiel</div>
+    <div className="text-xs text-gray-600">Depuis 1949</div>
+  </div>
+
+ 
+</div>
+
+
           </div>
         </div>
       </section>
