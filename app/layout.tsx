@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
-import Image from "next/image";
 import { ReactNode } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { ThemeProvider } from "./components/ThemeProvider"; // On importe le provider
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -21,27 +21,32 @@ export const metadata: Metadata = {
   description: "Site officiel du Raja Club Athletic de Casablanca",
 };
 
- 
-
 export default function RootLayout({
   children,
 }: {
   children: ReactNode;
 }) {
   return (
-    <html lang="fr">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-
-        <Header />
+    // suppressHydrationWarning est nécessaire pour éviter les erreurs de console avec next-themes
+    <html lang="fr" suppressHydrationWarning>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-[#051a06] transition-colors duration-300`}>
         
-     
-
-        {/* Contenu principal */}
-        <main className="min-h-screen">{children}</main>
-       
-
-       <Footer />
-  
+        {/* Le ThemeProvider enveloppe tout le contenu */}
+        <ThemeProvider 
+          attribute="class" 
+          defaultTheme="system" 
+          enableSystem
+        >
+          <Header />
+          
+          {/* Contenu principal */}
+          <main className="min-h-screen">
+            {children}
+          </main>
+          
+          <Footer />
+        </ThemeProvider>
+        
       </body>
     </html>
   );
