@@ -194,7 +194,7 @@ export default function SignUpPage() {
             {/* Submit Button */}
             <button
               onClick={handleSubmit}
-              className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white font-bold py-3 px-6 rounded-xl hover:from-green-600 hover:to-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-green-900 transform hover:scale-[1.02] transition-all duration-200 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2 group"
+              className="w-full bg-gradient-to-r px-5 py-2 text-[#D4AF37] font-bold border-2 border-[#D4AF37] rounded-lg hover:bg-[#D4AF37] hover:text-green-900 hover:scale-105 transition-all duration-300   text-white font-bold py-3 px-6 rounded-xl   transform hover:scale-[1.02] transition-all duration-200 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2 group"
             >
               <span>Créer mon compte</span>
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />

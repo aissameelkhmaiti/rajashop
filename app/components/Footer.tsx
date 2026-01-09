@@ -12,7 +12,11 @@ const Footer = () => {
   return (
     <div>
             {/* Footer */}
-        <footer className="  text-white py-12 border-t-4 border-green-600"  style={{ backgroundColor: "#0A400C" }}>
+        <footer className="  text-white py-12 border-t-4 border-green-600"  style={{ 
+    backgroundColor: "#0A400C",
+    borderColor: "#D4AF37",
+    backgroundSize: "20px 20px"
+  }}>
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
               {/* Section 1 */}
