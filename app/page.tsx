@@ -41,12 +41,19 @@ export default function Home() {
         className="relative text-white py-10 lg:py-15 overflow-hidden"
         style={{ backgroundColor: "#0A400C" }}
       >
+         <Image
+            src="/coverrr.jpg" // Remplacez par votre image (ex: le stade ou le public)
+            alt="Raja Club Athletic Cover"
+            fill
+            className="object-cover opacity-10" // Opacité réduite pour laisser lire le texte
+            priority
+          />
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div
             className="absolute inset-0"
             style={{
-              backgroundImage: `radial-gradient(circle at 1px 1px, white 1px, transparent 0)`,
+              backgroundImage: ``,
               backgroundSize: "40px 40px",
             }}
           ></div>
