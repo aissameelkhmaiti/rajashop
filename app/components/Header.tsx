@@ -102,7 +102,7 @@ const Header = () => {
 
           <Link
             href="/login"
-            className="block text-white text-lg font-medium border border-green-500 px-4 py-2 rounded-lg text-center hover:bg-green-500 transition-all"
+            className="px-5 py-2 text-[#C5A028] font-bold border-2 border-[#C5A028] rounded-lg hover:bg-[#C5A028] hover:text-green-900 hover:scale-105 transition-all duration-300 shadow-lg shadow-yellow-900/20"
             onClick={() => setOpen(false)}
           >
             Se connecter
@@ -110,7 +110,7 @@ const Header = () => {
 
           <Link
             href="/signup"
-            className="block text-white text-lg font-medium border border-green-500 px-4 py-2 rounded-lg text-center hover:bg-green-500 transition-all"
+            className="px-5 py-2 text-[#C5A028] font-bold border-2 border-[#C5A028] rounded-lg hover:bg-[#C5A028] hover:text-green-900 hover:scale-105 transition-all duration-300 shadow-lg shadow-yellow-900/20"
             onClick={() => setOpen(false)}
           >
             S'inscrire
