@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+ 
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+ 
+
+/* Texte principal */
+body {
+  font-family: var(--font-geist-sans);
+}
+
+/* Titres style football */
+h1, h2, h3, .title-football {
+  font-family: var(--font-bebas);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/* Scores / Match day */
+.match-title {
+  font-family: var(--font-bebas);
+  font-size: 56px;
+  letter-spacing: 2px;
+}
+
+.score-number {
+  font-family: var(--font-bebas);
+  font-size: 72px;
+}
