@@ -39,5 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+<<<<<<< HEAD
 
 public/*.exe
+=======
+>>>>>>> 63ce3b61e0af74118e6782b36c3436fce3e9d03e

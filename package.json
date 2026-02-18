@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+<<<<<<< HEAD
     "axios": "^1.13.2",
     "framer-motion": "^12.29.2",
+=======
+>>>>>>> 63ce3b61e0af74118e6782b36c3436fce3e9d03e
     "lucide-react": "^0.554.0",
     "next": "16.0.10",
     "next-themes": "^0.4.6",

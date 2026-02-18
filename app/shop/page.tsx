@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import React, { useState, useEffect, Suspense } from 'react';
@@ -257,3 +258,16 @@ export default function Page() {
     </Suspense>
   );
 }
+=======
+import React from 'react'
+
+const page = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default page
+>>>>>>> 63ce3b61e0af74118e6782b36c3436fce3e9d03e

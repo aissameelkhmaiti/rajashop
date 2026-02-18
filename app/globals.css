@@ -11,6 +11,7 @@
 
  
 
+<<<<<<< HEAD
 /* Texte principal */
 body {
   font-family: var(--font-geist-sans);
@@ -34,3 +35,5 @@ h1, h2, h3, .title-football {
   font-family: var(--font-bebas);
   font-size: 72px;
 }
+=======
+>>>>>>> 63ce3b61e0af74118e6782b36c3436fce3e9d03e
